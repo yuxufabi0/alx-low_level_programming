@@ -1,8 +1,13 @@
 #include <stdlib.h>
+#include <stio.h>
 #include <time.h>
-/* more headers goes there */
+/**
+ * main - prints the last digit of a quotient
+ * @n: takes in a number
+ *
+ * Return: 0
+ */
 
-/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;

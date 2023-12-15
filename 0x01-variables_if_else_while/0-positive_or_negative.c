@@ -1,6 +1,14 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
+
+/**
+ * main - checks if a number is -ve, +ve or 0
+ * @n: takes a random number
+ *
+ * Return: 0
+ */
+
 int main(void)
 {
 	int n = 5;
