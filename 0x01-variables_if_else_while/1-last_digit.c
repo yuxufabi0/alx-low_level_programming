@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include <stio.h>
+#include <stdio.h>
 #include <time.h>
 /**
  * main - prints the last digit of a quotient
