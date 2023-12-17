@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * main - checks if a number is -ve, +ve or 0
+ * main - checks if a number is -ve, +ve or zero
  * @n: takes a random number
  *
  * Return: 0
