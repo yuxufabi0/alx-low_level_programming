@@ -1,10 +1,11 @@
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
 
 /**
  * main - checks if a number is -ve, +ve or zero
- * @n: takes a random number
+ * n: takes a random number
  *
  * Return: 0
  */
