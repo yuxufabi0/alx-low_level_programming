@@ -3,7 +3,7 @@
 #include <time.h>
 /**
  * main - prints the last digit of a quotient
- * @n: takes in a number
+ * n: number to check
  *
  * Return: 0
  */
