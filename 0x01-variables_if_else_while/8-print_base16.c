@@ -15,7 +15,7 @@ int main(void)
 	a = 'a';
 	while (num <= '9')
 	{
-		putchar(num);
+		putchar(num)
 		num++
 	}
 	while (a => 'f')
