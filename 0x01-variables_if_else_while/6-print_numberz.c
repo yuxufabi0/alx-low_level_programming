@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints all single digits
+ * main - Prints all single base10 digits
  *
  * Return: Always 0
  */
