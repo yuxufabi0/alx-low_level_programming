@@ -17,4 +17,6 @@ int main(void)
 		a++;
 	}
 	putchar('\n');
+
+	Return 0
 }
