@@ -4,7 +4,7 @@
  * main - Prints all possible different combo
  * of three digits
  *
- * Return - Always 0
+ * Return: Always 0
  */
 
 int main(void)
@@ -25,7 +25,7 @@ int main(void)
 				putchar(a);
 				putchar(b);
 				putchar(c);
-				if (a != '9' || b != '8' || c != '7')
+				if (c != '9' || b != '8' || a != '7')
 				{
 					putchar(',');
 					putchar(' ');
