@@ -19,14 +19,14 @@ void	digitz(long int num)
 {
 	if (num < 0)
 	{
-		putchar('-');
+		_putchar('-');
 		num *= -1;
 	}
 
 	if (num / 10)
 		digitz(num / 10);
 
-	putchar(num % 10 + '0');
+	_putchar(num % 10 + '0');
 }
 
 
@@ -48,5 +48,6 @@ void	times_table(void)
 			b++;
 		}
 		a++;
+		_putchar('\n');
 	}
 }
