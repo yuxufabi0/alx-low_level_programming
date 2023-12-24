@@ -7,12 +7,28 @@
  */
 
 void	times_table(void);
+void	digitz(long int num);
 
 int main(void)
 {
     times_table();
     return (0);
 }
+
+void	digitz(long int num)
+{
+	if (num < 0)
+	{
+		putchar('-');
+		num *= -1;
+	}
+
+	if (num / 10)
+		digitz(num / 10);
+
+	putchar(num % 10 + '0');
+}
+
 
 void	times_table(void)
 {
@@ -25,7 +41,7 @@ void	times_table(void)
 		b = 0;
 		while (b <= 9)
 		{
-			_putchar('0' + a*b);
+			digitz(a * b);
 			_putchar(',');
 			_putchar(' ');
 			_putchar('\n');
