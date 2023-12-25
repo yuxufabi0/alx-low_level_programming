@@ -1,19 +1,14 @@
 #include "main.h"
 
 /**
- * times_table - Prints the 9 times table
+ * times_table - Prints the 9 times table.
+ * digitz - Prints digits.
  *
  * Return: Always 0
  */
 
 void	times_table(void);
 void	digitz(long int num);
-
-int main(void)
-{
-    times_table();
-    return (0);
-}
 
 void	digitz(long int num)
 {
@@ -42,9 +37,11 @@ void	times_table(void)
 		while (b <= 9)
 		{
 			digitz(a * b);
-			_putchar(',');
-			_putchar(' ');
-			_putchar('\n');
+			if (b != 9)
+			{
+				_putchar(',');
+				_putchar(' ');
+			}
 			b++;
 		}
 		a++;
