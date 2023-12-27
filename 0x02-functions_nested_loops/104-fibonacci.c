@@ -10,9 +10,9 @@
 
 int main(void)
 {
-	unsigned int long old;
-	unsigned int long new;
-	unsigned int long temp;
+	int long old;
+	int long new;
+	int long temp;
 	int i;
 
 	old = 0;
@@ -23,9 +23,9 @@ int main(void)
 		temp = new;
 		new += old;
 		old = temp;
-		printf("%i:  %li", i,new);
+		printf("%li", new);
 		if (i != 98)
-			printf(",\n");
+			printf(", ");
 		i++;
 	}
 	printf("\n");
