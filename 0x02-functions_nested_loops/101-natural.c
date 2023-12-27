@@ -21,4 +21,6 @@ int main(void)
 		i++;
 	}
 	printf("%i\n", s);
+
+	return (0);
 }
