@@ -20,12 +20,12 @@ void	more_numbers(void)
 		while (b < 15)
 		{
 
-			if (a > 9)
-				_putchar(a / 10 + '0');
-			_putchar(a % 10 + '0');
-			a++;
+			if (b > 9)
+				_putchar(b / 10 + '0');
+			_putchar(b % 10 + '0');
+			b++;
 		}
-		b++;
+		a++;
 		_putchar('\n');
 	}
 }
