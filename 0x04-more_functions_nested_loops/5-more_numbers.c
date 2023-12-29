@@ -14,11 +14,10 @@ void	more_numbers(void)
 	int b;
 
 	a = 0;
-	b = 0;
 	while (a < 10)
 	{
 		b = 0;
-		while (b < 14)
+		while (b < 15)
 		{
 
 			if (a > 9)
