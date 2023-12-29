@@ -10,15 +10,21 @@ void	more_numbers(void);
 
 void	more_numbers(void)
 {
-	int i;
+	int a;
+	int b;
 
 	i = 0;
-	while (i < 14)
+	b = 0;
+	while (a < 10)
 	{
-		if (i > 9)
-			_putchar(i / 10 + '0');
-		_putchar(i % 10 + '0');
-		i++;
+		b = 0;
+		while (b < 14)
+		{
+			if (a > 9)
+				_putchar(a / 10 + '0');
+			_putchar(a % 10 + '0');
+			a++;
+		}
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
