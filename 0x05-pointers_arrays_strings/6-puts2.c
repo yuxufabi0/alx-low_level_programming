@@ -4,6 +4,9 @@
  * puts2 - Prints every other char of a string, starting with the first char
  * @str: string to print the chars from
  */
+
+void	puts2(char *str);
+
 void	puts2(char *str)
 {
 	int len, i;
