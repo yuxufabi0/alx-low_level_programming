@@ -8,11 +8,11 @@
  * @owner: a char member for owner
  */
 
-typedef struct
+struct dog
 {
 	char *name;
 	float age;
 	char *owner;
-}dog;
+};
 
 #endif
