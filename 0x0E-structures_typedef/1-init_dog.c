@@ -2,7 +2,7 @@
 
 /**
  * init_dog - initializes a dog structure
- * @Takes in a dog pointer to the structure
+ * @d: Takes in a dog pointer to the structure
  * @name: Takes in a char pointer
  * @age: Takes in a float
  * @owner: Takes in a char pointer
