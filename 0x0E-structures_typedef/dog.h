@@ -15,13 +15,4 @@ struct dog
 	char *owner;
 };
 
-/**
-  * struct dog dog_t - A new dog with the dog structur
-  */
-
-struct dog dot_t;
-
-void init_dog(struct dog *d, char *name, float age, char *owner);
-void print_dog(struct dog *d);
-
 #endif
