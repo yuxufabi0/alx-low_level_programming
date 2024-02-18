@@ -4,6 +4,8 @@
   * main - A program that prints all the args it receives
   * @argc: an int for arg counter
   * @argv: a char pointer to arrays of pointers
+  *
+  * Return: Always 0
   */
 
 int main(int argc, char *argv[])
