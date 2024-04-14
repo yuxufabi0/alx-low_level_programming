@@ -6,6 +6,7 @@
  * @ht: pointer to the hash table
  * Return: no return
  */
+
 void hash_table_delete(hash_table_t *ht)
 {
 	unsigned long int i;
@@ -15,7 +16,8 @@ void hash_table_delete(hash_table_t *ht)
 	if (ht == NULL)
 		return;
 
-	for (i = 0; i < ht->size; i++)
+	i = 0;
+	while (i < ht->size)
 	{
 		tmp1 = ht->array[i];
 		while ((tmp2 = tmp1) != NULL)
@@ -25,6 +27,7 @@ void hash_table_delete(hash_table_t *ht)
 			free(tmp2->value);
 			free(tmp2);
 		}
+		i++;
 	}
 	free(ht->array);
 	free(ht);
